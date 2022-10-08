@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
 .body__head{
     max-width: 1510px;
     margin: auto;
@@ -59,7 +63,7 @@ position: relative;
     /* padding-left: 560px; */
 width: 113px;
 height: 75px;
-
+/* font-family: "Open-Sans" "semibold"; */
 }
 .links__inside{
     /* display: flex; */
@@ -68,10 +72,14 @@ height: 75px;
     margin-left: 70px;
     width: 113px;
     /* height: 75px; */
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 .links__top a{
     text-decoration:none;
     color: #fff;
+    
+    /* font-family: "Open-Sans" ; */
 }
 .header__block{
     margin: auto;
@@ -96,6 +104,10 @@ margin-top: 231px;
     height: 168px;
     color: #fff;
 }
+.text__header p{
+    font-family: "Raleway";
+    font-weight: 500;
+}
 .line__header{
     content: "";
     
@@ -111,6 +123,10 @@ margin-top: 231px;
     color: #fff;
     margin-bottom: 42px;
 }
+.text2__header p{
+    font-family: "Raleway";
+    font-weight: 400;
+ }
 .buttonax__head{
     width: 270px;
     height: 58px;
@@ -125,6 +141,8 @@ margin-top: 231px;
     width: 270px;
     height: 58px;
     display: inline-block;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 .header__right{
 width: 470px;
@@ -151,9 +169,13 @@ text-transform: uppercase;
 }
 .text__hedright{
     color:#333;
+    font-family: "Open Sans";
+    font-weight: 700;
 }
 .color__free{
     color: #EC7979;
+    font-family: "Open Sans";
+    font-weight: 700;
 }
 .inpute__header{
     margin-left: 50px;
@@ -167,6 +189,7 @@ text-transform: uppercase;
     border-bottom: 1px solid #BDBDBD;
     margin-bottom: 33px;
     outline: none;
+    
 
 }
 
@@ -175,6 +198,8 @@ text-transform: uppercase;
     height: 19px;
     color: #BDBDBD;
     margin-bottom: 16px;
+    font-family: "Raleway";
+    font-weight: 400;
 }
 .buttom__header{
     margin-top: 46px;
@@ -191,7 +216,8 @@ text-transform: uppercase;
     display: block;
     text-align: center;
     line-height: 60px;
-    
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 .media__header{
     width: 1510px;
@@ -210,6 +236,10 @@ text-transform: uppercase;
     margin-bottom: 18px;
     
 }
+.media__head strong{
+    font-family: "Open Sans";
+    font-weight: 700;
+}
 .leftside__media{
 margin-bottom: 18px;
 }
@@ -218,7 +248,8 @@ margin-bottom: 18px;
     height: 42px;
     margin-left: 170px;
     color: #86878B;
-    
+    font-family: "Raleway";
+    font-weight: 400;
     margin-bottom: 18px;
 }
 .rightside__media{
@@ -255,6 +286,9 @@ margin-bottom: 18px;
     font-size: 14px;
     line-height: 19px;
     position: relative;
+    Font-family: "Open Sans";
+    /* Font-style:"Regular" */
+    font-weight: 400;
 }
  .tabs__head:hover{
     width: 203px;
@@ -296,8 +330,11 @@ height: 124px;
 margin-left: 100px;
 text-align: left;
 
+Font-family: "Open Sans";
+font-weight: 700;
 font-size: 30px;
-line-height: 120px;
+line-height: 100%;
+line-height: 41px;
 }
 .tabstext__header{
     width: 570px;
@@ -307,6 +344,10 @@ line-height: 120px;
     font-size: 18px;
     line-height: 21px;
     
+}
+.tabstext__header p{
+    font-family: "Raleway";
+    font-weight: 400;
 }
 .buttomtabs__header{
     
@@ -325,6 +366,8 @@ line-height: 120px;
     display: inline-block;
     width: 270px;
     height: 58px;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 .tabsimage__header{
 margin-left: 30px;
@@ -385,7 +428,8 @@ margin: auto;
 
     }
 .title{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway";
+    font-weight: 400;
     position: relative;
   font-weight: 400;
   font-size: 36px;
@@ -396,6 +440,10 @@ margin: auto;
   
    
   }
+.awesome__text{
+    font-family: "Raleway";
+    font-weight: 400;
+}
   
   /* .item-awesome{} */
   
@@ -410,7 +458,8 @@ margin: auto;
   
   }
       .item-awesome__title{
-          
+font-family: "Open Sans";
+font-family: 700;
        height: 100px;
        width: 370px;
        text-align: center;
@@ -421,7 +470,8 @@ margin: auto;
       .item-awesome__text{
    width: 370px;
    height: 105px;
-   
+   font-family: "Raleway";
+   font-weight: 400;
    /* padding-right:20px ; */
           text-align: center;
           font-size: 18px;
@@ -467,7 +517,9 @@ margin: auto;
         .pricing__text{
         width: 1169px;
         height: 21px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: "Raleway";
+        font-weight: 400;
+        Font-size: 18px;
         text-align: center;
         padding-left: 170px;
         padding-top: 40px;
@@ -511,7 +563,8 @@ margin: auto;
             background-color: rgb(61, 54, 54);
             color: aliceblue;
             border-bottom: 1px solid white;
-            
+            Font-family: "Open Sans";
+            Font-style: "Bold";
             font-size: 24px;
             /* text-align: center;
             vertical-align: middle; */
@@ -529,6 +582,8 @@ margin: auto;
             margin-right: 0px;
             font-size: 36px;
             line-height: 100px;
+            Font-family: "Raleway";
+            Font-style: "Bold";
         }
         .items--third__item{
             width: 370px;
@@ -539,6 +594,7 @@ margin: auto;
             color: rgba(248, 242, 242, 0.5);
             font-size: 18px;
             line-height: 50px;
+            Font-family: "Raleway", "Regular";
             
         }
         .items--others__item{
@@ -549,6 +605,7 @@ margin: auto;
             color: gray;
             font-size: 18px;
             line-height: 50px;
+            Font-family: "Raleway", "Regular";
         }
         .rest__item{
             margin-bottom: 50px;
@@ -586,7 +643,8 @@ margin: auto;
                 width: 1170px;
                 height: 150px;
                 line-height: 140px;
-                
+                Font-family: "Raleway", "Regular";
+                Font-size: 36px;
                 }
                 .line__bottom{
                     content: "";
@@ -603,12 +661,13 @@ margin: auto;
                 text-align: center;
                 font-size: 18px;
                 margin-bottom: 83px;
+                Font-family: "Raleway", "Regular"; 
                 }
                 .messages__bottom{
                 max-width: 1500px;
                 display: flex;
                 justify-content: space-between;
-                
+                Font-family: "Raleway", "Regular"; 
                 /* width: 370px;
                 height: 180px; */
                 
@@ -665,12 +724,15 @@ margin: auto;
                 width: 269px;
                 height: 54px;
                 margin-left: 0px;
+                font-family: "Open Sans";
+                font-weight: 700;
                 }
                 .menager__bottom{
                 width: 270px;
                 height: 21px;
                 font-size: 18px;
                 margin-left: 0;
+                Font-family: "Raleway", "Regular"; 
                 }
                 .menagers__bottom{
                     display: flex;
@@ -713,6 +775,7 @@ margin: auto;
                 font-size: 36px;
                 color: #FFFFFF;
                 padding-top: 50px;
+                Font-family: "Raleway", "Regular"; 
                 }
                 .line2__bottom{
                     content: "";
@@ -729,6 +792,7 @@ margin: auto;
                 font-size: 18px;
                 color: #FFFFFF;
                 margin-bottom: 73px;
+                Font-family: "Raleway", "Regular"; 
                 }
                 .button__bottom{
                     
@@ -745,6 +809,9 @@ margin: auto;
                     color: #FFFFFF;
                     width: 370px;
                     height: 58px;
+                    Font-size: 18px;
+                    font-family: "Open Sans";
+                    font-weight: 600;
                 }
                 .contact__bottom{
                     margin-top:50px ;
@@ -762,7 +829,7 @@ margin: auto;
                     height: 150px;
                     line-height: 140px;
                     font-size: 36px;
-                    
+                    Font-family: "Raleway", "Regular"; 
                     padding-top: 50px;
                 }
                 .line3__bottom{
@@ -779,6 +846,7 @@ margin: auto;
                     height: 21px;
                 text-align: center;
                 font-size: 18px;
+                Font-family: "Raleway", "Regular"; 
                 
                 }
                 .inputes__bottom{
@@ -810,6 +878,8 @@ margin: auto;
                     margin-top: 50px;
                     width: 570px;
                     height: 19px;
+                    font-family: "Open Sans";
+                    font-weight: 400;
                     }
                 .textarea__bottom{
                 margin-left: 30px;
@@ -829,6 +899,8 @@ margin: auto;
                     height: 19px;
                     margin-top: 89px;
                 width: 100%;
+                font-family: "Open Sans";
+                    font-weight: 400;
                 }
                 .textarea__bottom textarea{
                     /* padding-top:37px ; */
@@ -850,7 +922,8 @@ margin: auto;
                     
                     line-height: 55px;
                     text-align: center;
-                   
+                    font-family: "Open Sans";
+                    font-weight: 600;
                     margin-top: 50px;
                     margin-bottom: 50px;
                 
@@ -874,7 +947,7 @@ margin: auto;
                 
                 }
                 .end__top{
-                   
+                    
                     padding-top:40px ;
                     display:flex ;
                 justify-content: center;
@@ -888,6 +961,7 @@ margin: auto;
                 color: #FFFFFF ;
                 text-align: center;
                 opacity: 0.5;
+                Font-family: "Raleway","пRegular";
                 }
                 .links__end{
                     align-items: center;
