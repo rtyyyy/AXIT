@@ -5,16 +5,26 @@
 .body__head{
     max-width: 1510px;
     margin: auto;
+    /* justify-content: center; */
+    
+}
+
+
+@media (max-width: 768px){ 
+    .body__head{
+        max-width: 720px;
+    }
 }
 .header__top{
-width: 1510px;
-height: 1026px;
+/* width: 1510px;
+height: 1026px; */
 /* background: grey; */
 margin: auto;
 background-image: url(street.svg);
 position: relative;
 
 }
+
 .header__top::before{
 
     content: "";
@@ -152,6 +162,7 @@ margin-left: 30px;
 margin-bottom: 293px;
 background:#fff;
 border-radius: 10px;
+flex-wrap: wrap;
 }
 .textmain__header{
     display: flex;
@@ -269,8 +280,8 @@ margin-bottom: 18px;
 }
 .ul__media{
     display: flex;
-    margin-left: 50px;
-    margin-right: 180px;
+    /* margin-left: 50px;
+    margin-right: 180px; */
 }
 .tabs{
     margin-left: 170px;
@@ -373,6 +384,174 @@ line-height: 41px;
 margin-left: 30px;
 height: 100%;
 }
+
+@media (max-width: 1200px){ 
+    .body__head{
+        width: 1024px;
+    }
+    .head2{
+        width: 1024px;
+        padding-right: 260px;
+    }
+    .header__top{
+        max-height: 768px;
+    
+    }
+    .links__top{
+    margin-left: 130px;
+    padding-left: 20px;
+    }
+    .image__top{
+        padding-left: 115px;
+    }
+    .links__inside li:last-child{
+        margin-right: 100px;
+    }
+    
+    .container{
+        max-width: 1024px;
+    }
+    .header__right{
+    width: 400px;
+    height: 450px;
+    margin-left: 36px;
+    margin-bottom: 106px;
+    margin-top: 137px;
+    }
+    .header__left{
+        margin-left: 100px;
+    }
+    .text__header{
+        font-size: 36px;
+        width: 450px;
+        height: 126px;
+        margin-bottom: 41px;
+    }
+    .text2__header{
+        width: 183px;
+        height: 32px;
+        font-size: 14px;
+        margin-bottom: 33px;
+    }
+    .line__header{
+        width: 115px;
+        margin-bottom: 31px;
+    }
+    .buttonax__head{
+        width: 183px;
+        height: 50px;
+        /* line-height: 100%; */
+    }
+    .buttonax__head a{
+        width: 183px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .picture__header{
+        margin-top: 154px;
+        margin-bottom: 54px;
+        
+    }
+    .picture__header img:first-child{
+        height: 40px;
+        width: 70px;
+    }
+    .picture__header img:last-child{
+        height: 40px;
+        width: 40px;
+    }
+    .media__header{
+        max-width: 1024px;
+        height: 105px;
+    }
+    .media__head{
+        width: 402px;
+        height: 45px;
+        margin-left: 17px;
+        margin-bottom: 13px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+    }
+    .media__text{
+    width: 400px;
+    height: 32px;
+        margin-top: 13px;
+        margin-left: 17px;
+        line-height: 16px;
+        font-size: 14px;
+        margin-right: 38px;
+    }
+    .rightside__media {
+        margin-right: 30px;
+    }
+    .rightside__media li:last-child {
+        margin-right: 0;
+    }
+    .links__media img{
+        width: 50px;
+        height: 50px;
+    }
+    .links__media img:nth-child(1){
+        width: 38px;
+        height: 47px;
+        
+    }
+    .ul__media{
+        padding: 0;
+        /* margin: 0; */
+    }
+    .tabs__head{
+        width: 180px;
+    }
+    .tabs__header{
+        margin-left: 17px;
+        max-width: 992px;
+        max-height: 386px;
+    }
+    .tabs{
+        margin-left: 17px;
+    }
+    .tabshead__header{
+        width: 480px;
+        height: 89px;
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+    .tabstext__header{
+        width: 480px;
+        height: 112px;
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+    .buttomtabs__header{
+        width: 231px;
+        height: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabsimage__header img{
+        width: 400px;
+        height: 387px;
+        
+    }
+    .tabsimage__header{
+        margin-left: 26px;
+    }
+    .tabs__head:hover,.tabs__head:active{
+        width: 170px;
+    }
+}
+
+
+
+
+
 
 .awesome{
     align-items: center;
@@ -609,6 +788,9 @@ font-family: 700;
         }
         .rest__item{
             margin-bottom: 50px;
+        }
+        .rest__item li:last-child{
+            border-bottom: none;
         }
 
 
@@ -961,7 +1143,7 @@ font-family: 700;
                 color: #FFFFFF ;
                 text-align: center;
                 opacity: 0.5;
-                Font-family: "Raleway","пRegular";
+                Font-family: "Raleway","Regular";
                 }
                 .links__end{
                     align-items: center;
