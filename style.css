@@ -582,7 +582,7 @@ margin-bottom: 40px;
     
     }
     .awesome__title{
-    
+    margin: 0 0 30px 0;
     
     }
     .awesome__text{
@@ -616,7 +616,14 @@ margin: auto;
   text-transform: uppercase;
   align-items: center;
   text-align: center;
-  
+  height: 150px;
+  width: 1170px;
+  margin-top: 50px;
+margin-left: 168px;
+margin-right: 170px;
+display: flex;
+justify-content: center;
+align-items: center;
    
   }
 .awesome__text{
