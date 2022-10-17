@@ -595,8 +595,8 @@ height: 100%;
     }
     .links__top{
         
-        display: block;
-        /* position: fixed; */
+        display: none;
+        position: fixed;
         margin-top: 64px;
         top: 0;
         left: 0;
@@ -625,7 +625,7 @@ height: 100%;
         margin-top: 19px;
         margin-bottom: 19px;
         margin-right: 35px;
-        z-index: -50;
+        z-index: 10;
     }
     .header__burger:before,
     .header__burger:after{
@@ -1829,5 +1829,191 @@ align-items: center;
                             width: 1024px;
                             height: 16px;
                         }
+                        
+                        @media(max-width:1200px)
+                        {
+                        .dots{
+                            display: none;
+                        }
+                        }
 
+                }
+                .dots{
+                    display: none;
+                }
+                @media(max-width:548px)
+                {
+                    .header__bottom{
+                        max-width: 320px;
+                    }
+                    .title__bottom{
+                        width: 288px;
+                        height: 120px;
+                        font-size: 24px;
+                        /* text-align: center; */
+                        line-height: 28px;
+                        margin: 26px 16px 0 16px;
+                    }
+                    .line__bottom{
+                        width: 134px;
+                        margin: 0 93px 24px 93px;
+                    }
+                    .text__bottom{
+                        width: 288px;
+                        height: 32px;
+                        margin: 24px 16px;
+                        font-size: 14px;
+                        padding-bottom: 24px;
+                    }
+                    .dots{
+                        display: flex;
+                    }
+                    .comments__bottom:first-child{
+                        display: none;
+                    }
+                    .comments__bottom:last-child{
+                        display: none;
+                    }
+                    .delta__item:first-child{
+                        display: none;
+                    }
+                    .delta__item:last-child{
+                        display: none;
+                    }
+                    .newblock__bottom:first-child{
+                        display: none;
+                    }
+                    .newblock__bottom:last-child{
+                        display: none;
+                    }
+                    .comments__bottom:nth-child(2){
+                        width: 288px;
+                        height: 180px;
+                        margin: 24px 16px 0 16px;
+                    }
+                    .delta__item:nth-child(2){
+                        margin: 0;
+                        padding: 0;
+                        width: 25px;
+                        height: 20px;
+                    }
+                    .dots{
+                        display: flex;
+                        justify-content: center;
+                        
+                    }
+                    .dot:nth-child(2){
+                        margin: 0 50px;
+                    }
+                    .styleaxure__bottom{
+                        width: 320px;
+                        height: 358px;
+                        
+                    }
+                    .styletext__bottom{
+                        width: 288px;
+                        height: 120px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 28px;
+                        font-size: 24px;
+                        padding: 0;
+                    }
+                    .line2__bottom{
+                        width: 134px;
+                        margin: 0 93px;
+                        padding: 0;
+
+                    }
+                .text2__bottom{
+                    width: 288px;
+                    height: 48px;
+                    margin: 16px 16px 66px 16px;
+                    font-size: 14px;
+                }
+                .button__bottom{
+                    width: 287px;
+                    height: 50px;
+                    margin: 66px 16px 59px 16px;
+                }
+                .contacttext__bottom{
+                    width: 288px;
+                    height: 120px;
+                    margin: 0 16px 0 16px;
+                    font-weight: 400;
+                }
+                .line3__bottom{
+                    width: 134px;
+                        margin: 0  93px 24px 93px;
+                        padding: 0;
+                }
+                .text3__bottom{
+                    width: 288px;
+                    height: 32px;
+                    font-size: 14px;
+                    margin: 24px 16px 64px 16px;
+                }
+                .inputes__bottom{
+                    display: block;
+                }
+                .inputeleft__bottom input{
+                width: 288px;
+            
+                }
+                .textarea__bottom{
+                    margin-top: 50px;
+                    margin-left: 16px;
+                    
+                }
+                .textarea__bottom {
+                    width: 288px;
+                }
+                .butt0n__bottom{
+                    width: 288px;
+                    height: 50px;
+                    margin: 50px 16px 40px 16px;
+                }
+                .butt0n__bottom a{
+                    width: 288px;
+                }
+                .main__bottom{
+                    width: 320px;
+                    height: 164px;
+
+                }
+                .end__top{
+                    
+                    margin-left:20px ;
+                }
+                .links__end{
+                    margin-left: 0;
+                    
+                    display: flex;
+                    justify-content: flex-start;
+                    padding: 0;
+                    width: 320px;
+                    
+                }
+                .linksin__end{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-left: 20px;
+                }
+                .linksin__end img{
+                    width: 20px;
+                    height: 20px;
+                    
+
+                }
+                .end__bottom{
+                    width: 288px;
+                    height: 16px;
+                    margin: 44px 16px 45px 16px;
+
+                }
+                .messages__bottom{
+                    margin-top: 24px;
+                }
+                    
                 }
